@@ -1,3 +1,50 @@
+html,
+body {
+  height: 100%;
+}
+#fondo {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(38, 39, 39, 0.61);
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+#selector {
+  position: fixed;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 60vw;
+  height: 200px;
+  border-radius: 15px;
+  background: #fff;
+  border: 2px solid black;
+  margin: auto;
+  z-index: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  z-index: 1;
+}
+
+.on {
+  display: block;
+}
+.off {
+  display: none;
+}
+.caja {
+  padding: 5%;
+  border: black 3px solid;
+}
+
 #container {
   background-color: rgb(203, 240, 37);
   border: solid 2px black;
